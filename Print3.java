@@ -1,5 +1,4 @@
 import java.util.Arrays;
-
 class Print3
 {
     public static void main(String[] args) {

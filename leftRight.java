@@ -6,8 +6,14 @@ public static void main(String[] args) {
     int k=sc.nextInt();
     sc.nextLine();
     String s=sc.nextLine();
-    String lr=s.substring(k,n-k)+s.substring(0, k);
-    System.out.println(lr);
+    //Left Rotation
+    // String lr=s.substring(k,n-k)+s.substring(0, k);
+    // System.out.println(lr);
+
+    //Right Rotation
+    k=k%n;
+    String rr=s.substring(n-k,n)+s.substring(0, n-k);
+    System.out.println(rr);
 }
 }
 

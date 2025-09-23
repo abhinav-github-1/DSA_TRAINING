@@ -1,6 +1,7 @@
 import java.util.*;
 public class insertString {
     public static void main(String[] args) {
+        //insert string
         Scanner sc=new Scanner (System.in);
         String s1=sc.nextLine();
         String s2=sc.nextLine();

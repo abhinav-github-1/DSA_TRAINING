@@ -1,5 +1,6 @@
 import java.util.*;
 public class leftRight{
+    //try to use formula for left and right rotation
 public static void main(String[] args) {
     Scanner sc=new Scanner(System.in);
     int n=sc.nextInt();

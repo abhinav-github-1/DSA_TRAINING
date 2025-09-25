@@ -10,6 +10,7 @@ public static void main(String[] args) {
     //Left Rotation
     // String lr=s.substring(k,n-k)+s.substring(0, k);
     // System.out.println(lr);
+// Formula should be applied if necessary
 
     //Right Rotation
     k=k%n;

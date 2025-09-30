@@ -8,14 +8,19 @@ public class singledigitsum {
         int cal=digitSum(n)*k;
         // int cntdigits=0;
         // System.out.println(cal);
-        int ans=0;
-        while(cal>0)
-        {
-            int x=cal%10;
-            ans+=x;
-            cal/=10;
-        }
-        System.out.println(ans);
+        // int ans=0;
+        // while(cal>0)
+        // {
+        //     int x=cal%10;
+        //     ans+=x;
+        //     cal/=10;
+        // }
+        // System.out.println(ans);
+        //Optimal Solution
+        if(cal%9!=0)
+        System.out.println(cal%9);
+        else
+        System.out.println(1);
         sc.close();
     }
     static int digitSum(int n)
